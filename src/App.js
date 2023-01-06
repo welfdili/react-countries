@@ -1,9 +1,10 @@
 import './App.css';
+import ContriesList from './components/countries/ContriesList';
 
 function App() {
   return (
-    <div className="App">
-      <h1> salam</h1>
+    <div className="container">
+      <ContriesList />
     </div>
   );
 }
